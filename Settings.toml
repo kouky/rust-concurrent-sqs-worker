@@ -1,0 +1,10 @@
+[aws]
+credentials_profile = "your-aws-credential-profile"
+region = "us-west-2"
+queue_url = "https://sqs.us-west-2.amazonaws.com/your-aws-account-id/example-queue"
+
+[producer]
+message_volume = 100
+
+[consumer]
+worker_count = 10
